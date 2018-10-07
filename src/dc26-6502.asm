@@ -2019,7 +2019,7 @@ MemPtrOverflowText:
   .byte "(513)", $02, $12, $00, $02
 
   ; Create special PRG interrupt vectors for NROM-128
-  .pad  $BFF9
+  .pad  $BFFA
   .dw   NMI
   .dw   RESET
   .dw   0

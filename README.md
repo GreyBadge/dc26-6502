@@ -19,7 +19,7 @@ From a terminal, go to the the main directory of this project (the directory thi
 
     $ make
 
-The resulting NES ROM will be located at **bin/dc26-6502.nes** and should have the SHA-256 hash of `85816790f8f77f071890498db6b8e68f0b7c1f564f039cea05b30eef8d0bcc42`
+The resulting NES ROM will be located at **bin/dc26-6502.nes** and should have the SHA-256 hash of `c3bcbe82aa4fddc4e686a46cb6ec0311b3c01bbc3e0a97987695dcdfafe6a409`
 
 ### Cleaning Build Environment:
 If you used `make` to build the NES ROM, you can run the following command to clean up the build environment.
@@ -65,7 +65,7 @@ If you used `make` to build the NES ROM, you can run the following command to cl
 
   This NES ROM is also a functional brainf--k file.  Using `python3 bfinterpreter.py dc26-6502.nes` will allow you to interpret the brainf--k file content of the NES ROM.
 
-- #### Creating Brainf--k Programs:  
+- #### Creating Brainf--k Programs:
 
   An included tool, **ascii2bf.py** allows you to create a brainf--k program for any file that is a multiple of 8 bits long.  To create a brainf--k program, use `python3 ascii2bf.py filename` where _filename_ is the path to the file you want to create a brainf--k program for.
 
